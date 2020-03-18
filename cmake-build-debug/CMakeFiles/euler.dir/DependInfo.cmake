@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/max/euler/1.cpp" "/home/max/euler/cmake-build-debug/CMakeFiles/euler.dir/1.cpp.o"
+  "/home/max/euler/2.cpp" "/home/max/euler/cmake-build-debug/CMakeFiles/euler.dir/2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

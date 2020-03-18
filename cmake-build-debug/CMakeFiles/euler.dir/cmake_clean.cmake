@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/euler.dir/1.cpp.o"
+  "CMakeFiles/euler.dir/2.cpp.o"
   "euler"
   "euler.pdb"
 )

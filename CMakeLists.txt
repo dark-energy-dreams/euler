@@ -4,4 +4,4 @@ project(euler)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(euler
-        1.cpp)
+        2.cpp)

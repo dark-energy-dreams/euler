@@ -14,6 +14,9 @@
 //    return 0;
 //}
 
+/**
+ * Auxiliary function for finding the arithmetic progression sum
+ */
 int ar_sum(int n) {
     return 0.5 * n * (n + 1);
 }
@@ -34,9 +37,7 @@ int main() {
     int power_of_a = std::div(limit, divisor_a).quot;
     int power_of_b = std::div(limit, divisor_b).quot;
     int power_of_intersection = std::div(limit, divisor_a * divisor_b).quot;
-    /**
-     *
-     */
+
     result = divisor_a * ar_sum(power_of_a) + divisor_b * ar_sum(power_of_b) -
              divisor_a * divisor_b * ar_sum(power_of_intersection);
     std::cout << result << std::endl;

@@ -57,27 +57,27 @@ include CMakeFiles/euler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/euler.dir/flags.make
 
-CMakeFiles/euler.dir/1.cpp.o: CMakeFiles/euler.dir/flags.make
-CMakeFiles/euler.dir/1.cpp.o: ../1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/euler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/euler.dir/1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/euler.dir/1.cpp.o -c /home/max/euler/1.cpp
+CMakeFiles/euler.dir/2.cpp.o: CMakeFiles/euler.dir/flags.make
+CMakeFiles/euler.dir/2.cpp.o: ../2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max/euler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/euler.dir/2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/euler.dir/2.cpp.o -c /home/max/euler/2.cpp
 
-CMakeFiles/euler.dir/1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/euler.dir/1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/euler/1.cpp > CMakeFiles/euler.dir/1.cpp.i
+CMakeFiles/euler.dir/2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/euler.dir/2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/max/euler/2.cpp > CMakeFiles/euler.dir/2.cpp.i
 
-CMakeFiles/euler.dir/1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euler.dir/1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/euler/1.cpp -o CMakeFiles/euler.dir/1.cpp.s
+CMakeFiles/euler.dir/2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/euler.dir/2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/max/euler/2.cpp -o CMakeFiles/euler.dir/2.cpp.s
 
 # Object files for target euler
 euler_OBJECTS = \
-"CMakeFiles/euler.dir/1.cpp.o"
+"CMakeFiles/euler.dir/2.cpp.o"
 
 # External object files for target euler
 euler_EXTERNAL_OBJECTS =
 
-euler: CMakeFiles/euler.dir/1.cpp.o
+euler: CMakeFiles/euler.dir/2.cpp.o
 euler: CMakeFiles/euler.dir/build.make
 euler: CMakeFiles/euler.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max/euler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable euler"

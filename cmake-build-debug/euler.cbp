@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/max/euler/1.cpp">
+		<Unit filename="/home/max/euler/2.cpp">
 			<Option target="euler"/>
 		</Unit>
 		<Unit filename="/home/max/euler/CMakeLists.txt">
